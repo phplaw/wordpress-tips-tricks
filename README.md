@@ -27,7 +27,7 @@ function myplugin_registration_save( $user_id ) {
 //https://codex.wordpress.org/Plugin_API/Action_Reference/user_register
 ```
 
-
+[Read more on Wordpress Codex](https://codex.wordpress.org/Main_Page)
 
 
 [WordPress Development using PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/WordPress+Development+using+PhpStorm)
