@@ -40,5 +40,6 @@ public function set_price( $price ) {
 		return apply_filters( 'woocommerce_get_price', $this->price, $this );
 	}
 	
-	```
+	
+```
 	
