@@ -10,6 +10,7 @@ add_action( 'edit_user_profile_update', 'update_extra_retailer_practitioner_info
 ```php
 add_action( 'edit_user_profile', 'customer_show_extra_info' );
 add_action( 'show_user_profile', array(this, 'customer_show_extra_info' ) );
+// https://codex.wordpress.org/Plugin_API/Action_Reference/edit_user_profile
 
 ```
 
