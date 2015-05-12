@@ -32,6 +32,9 @@ function myplugin_registration_save( $user_id ) {
 
 [WordPress Development using PhpStorm](https://confluence.jetbrains.com/display/PhpStorm/WordPress+Development+using+PhpStorm)
 
-
+Redirect User to a specific url
+```php
+wp_redirect( home_url() ); exit;
+```
 
 -----------------
