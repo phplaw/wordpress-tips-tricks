@@ -57,5 +57,20 @@ function custom_login_redirect( $redirect_to ) {
 
 (Shortcode API)[https://codex.wordpress.org/Shortcode_API]
 
+**Get user meta data**
+```php
+//$single default is false, true will return only value
+get_user_meta($user_id, $key, $single);
+
+// example
+$user_id = 9;
+  $key = 'last_name';
+  $single = true;
+  $user_last = get_user_meta( $user_id, $key, $single ); 
+  echo '<p>The '. $key . ' value for user id ' . $user_id . ' is: ' . $user_last . '</p>'; 
+  // will out put
+  // The last_name value for user id 9 is Franklin
+  //https://codex.wordpress.org/Function_Reference/get_user_meta
+```
 
 -----------------
