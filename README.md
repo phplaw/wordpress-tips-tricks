@@ -55,5 +55,7 @@ function custom_login_redirect( $redirect_to ) {
 
 (Getting Started with WordPress Shortcodes+Examples)[http://speckyboy.com/2011/07/18/getting-started-with-wordpress-shortcodes-examples/] - Good explaintion
 
+(Shortcode API)[https://codex.wordpress.org/Shortcode_API]
+
 
 -----------------
