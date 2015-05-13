@@ -38,6 +38,18 @@ wp_redirect( home_url() ); exit;
 ```
 [Read more about wordpress redirect](https://codex.wordpress.org/Function_Reference/wp_redirect)
 
+```php
+/*
+ * goes in theme functions.php or a custom plugin
+ *
+ * By default login goes to my account
+ **/
+add_filter('woocommerce_login_widget_redirect', 'custom_login_redirect');
 
+function custom_login_redirect( $redirect_to ) {
+     $redirect_to = 'http://anypage.com';
+}
+
+```
 (How to remove filter in wordpress)[https://codex.wordpress.org/Function_Reference/remove_filter]
 -----------------
