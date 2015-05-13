@@ -36,5 +36,6 @@ Redirect User to a specific url
 ```php
 wp_redirect( home_url() ); exit;
 ```
+[Read more about wordpress redirect](https://codex.wordpress.org/Function_Reference/wp_redirect)
 
 -----------------
