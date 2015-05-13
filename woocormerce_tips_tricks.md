@@ -11,3 +11,5 @@ $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
 
 [How to Get Various WooCommerce Page URLs](https://www.skyverge.com/blog/get-woocommerce-page-urls/)
 
+[How to Change the WooCommerce Login Redirect URL](http://stanhub.com/how-to-change-woocommerce-login-redirect-url/) - Good to read
+
