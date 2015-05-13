@@ -52,4 +52,8 @@ function custom_login_redirect( $redirect_to ) {
 
 ```
 (How to remove filter in wordpress)[https://codex.wordpress.org/Function_Reference/remove_filter]
+
+(Getting Started with WordPress Shortcodes+Examples)[http://speckyboy.com/2011/07/18/getting-started-with-wordpress-shortcodes-examples/] - Good explaintion
+
+
 -----------------
