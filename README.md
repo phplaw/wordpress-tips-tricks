@@ -38,4 +38,6 @@ wp_redirect( home_url() ); exit;
 ```
 [Read more about wordpress redirect](https://codex.wordpress.org/Function_Reference/wp_redirect)
 
+
+(How to remove filter in wordpress)[https://codex.wordpress.org/Function_Reference/remove_filter]
 -----------------
