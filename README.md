@@ -72,5 +72,25 @@ $user_id = 9;
   // The last_name value for user id 9 is Franklin
   //https://codex.wordpress.org/Function_Reference/get_user_meta
 ```
+###Add user role
+Create a new "Basic Contributor" role.
+```php
+$result = add_role(
+    'basic_contributor',
+    __( 'Basic Contributor' ),
+    array(
+        'read'         => true,  // true allows this capability
+        'edit_posts'   => true,
+        'delete_posts' => false, // Use false to explicitly deny
+    )
+);
+if ( null !== $result ) {
+    echo 'Yay! New role created!';
+}
+else {
+    echo 'Oh... the basic_contributor role already exists.';
+}
+```
+https://codex.wordpress.org/Function_Reference/add_role
 
 -----------------
