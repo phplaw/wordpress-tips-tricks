@@ -113,4 +113,7 @@ $auto_load = 'yes';
  ```
 https://codex.wordpress.org/Function_Reference/add_option
 
+###Wordpress Handles Upload
+https://codex.wordpress.org/Function_Reference/wp_handle_upload
+
 -----------------
