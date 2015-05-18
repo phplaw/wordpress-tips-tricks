@@ -101,4 +101,16 @@ Create a new role when a plugin is activated. See register_activation_hook
    ```
 https://codex.wordpress.org/Function_Reference/add_role
 
+###Add options
+A safe way of adding a named option/value pair to the options database table. It does nothing if the option already exists. After the option is saved, it can be accessed with get_option(), changed with update_option(), and deleted with delete_option().
+
+You do not need to serialize values. If the value needs to be serialized, then it will be serialized before it is inserted into the database. You can create options without values and then add values later.
+```php
+/*(string) (optional) Should this option be automatically loaded by the function wp_load_alloptions() (puts options into object cache on each page load)? Valid values: yes or no.
+Default: yes*/
+$auto_load = 'yes';
+ add_option( 'myhack_extraction_length', '255', '', 'yes' );
+ ```
+https://codex.wordpress.org/Function_Reference/add_option
+
 -----------------
