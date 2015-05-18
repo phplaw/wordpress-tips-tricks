@@ -91,6 +91,14 @@ else {
     echo 'Oh... the basic_contributor role already exists.';
 }
 ```
+
+Create a new role when a plugin is activated. See register_activation_hook
+```php
+   function add_roles_on_plugin_activation() {
+       add_role( 'custom_role', 'Custom Subscriber', array( 'read' => true, 'level_0' => true ) );
+   }
+   register_activation_hook( __FILE__, 'add_roles_on_plugin_activation' );
+   ```
 https://codex.wordpress.org/Function_Reference/add_role
 
 -----------------
